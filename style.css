@@ -1,0 +1,35 @@
+button{
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: black;
+    cursor: pointer;
+}
+body{
+    background-color: paleturquoise
+}
+.b1{
+    margin: 0;
+    position: absolute;
+    top: 6%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.b2{
+    margin: 0;
+    position: absolute;
+    top: 6%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+b{
+   font-size: 50px;
+}
+td{
+    width: 30%;
+    text-align: center;
+}

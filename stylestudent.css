@@ -1,0 +1,41 @@
+body{
+    background-color: green;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+p{
+    text-align: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    position: relative;
+}
+.item p{
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.5;
+}
